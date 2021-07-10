@@ -1,0 +1,15 @@
+
+nums=[12,-7,5,64,-14]
+print("list1: ",nums)
+new_nums = list(filter(lambda x: x >0,nums))
+print(new_nums)
+nums=[12,14,-95,3]
+print("list2= ",nums)
+new_nums = list(filter(lambda x: x >0,nums))
+
+list1:  [12, -7, 5, 64, -14]
+[12, 5, 64]
+list2=  [12, 14, -95, 3]
+[12, 14, 3]
+
+
